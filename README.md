@@ -8,5 +8,5 @@ Python 3.x
 requests, beautifulsoup4, pandas, python-dotenv, tkinter 
 
 -pip3 install requests beautifulsoup4 pandas python-dotenv komutuyla paketleri yükleyin.
--.env dosyası oluşturup NOT_KUTUSU_EMAIL ve NOT_KUTUSU_PASSWORD değerlerini girin.
+-.env dosyası oluşturup NOT_KUTUSU_EMAIL=user@gmail.com ve NOT_KUTUSU_PASSWORD=12345 değerlerini girin.
 -python3 main.py komutuyla çalıştırın.
