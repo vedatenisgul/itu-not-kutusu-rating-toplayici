@@ -1,8 +1,6 @@
 from get_data import get_course_data,get_notkutusu_ratings
 from login import login_not_kutusu
 from save_data_to_file import save_dataframe_to_csv
-import tkinter as tk
-from tkinter import filedialog
 import pandas as pd
 import requests
 
