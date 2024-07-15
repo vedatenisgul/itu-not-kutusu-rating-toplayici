@@ -2,11 +2,11 @@ import tkinter as tk
 from tkinter import filedialog, messagebox
 
 def save_dataframe_to_csv(df):
-    # Tkinter penceresi oluşturalım (dosya seçimini yapmak için)
+    
     root = tk.Tk()
-    root.withdraw()  # Tkinter penceresini göstermeyelim, sadece dosya seçimini yapalım
+    root.withdraw()  
 
-    # Kullanıcıya dosya konumunu seçtirerek dataframe'i CSV formatında kaydedelim
+    
     try:
         file_path = filedialog.asksaveasfilename(
             title="CSV dosyasını kaydetmek için bir konum seçin",
@@ -24,5 +24,5 @@ def save_dataframe_to_csv(df):
         messagebox.showerror("Hata", f"Dosya kaydedilirken bir hata oluştu: {e}")
     
     finally:
-        # Tkinter penceresini kapat
+       
         root.destroy()
