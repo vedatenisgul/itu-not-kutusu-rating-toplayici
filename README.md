@@ -1,12 +1,16 @@
--İTÜ öğretim görevlisi derecelendirme programı
-
+### İTÜ öğretim görevlisi derecelendirme programı 
 Bu Python projesi, belirli bir dersi veren İTÜ'nün websitesindeki öğretim üyelerinin isimlerini kullanarak Not Kutusu'ndan öğretim görevlilerinin ratinglerini toplar ve onları sıralı bir biçimde CSV dosyasına kaydeder.
 
--Gereksinimler
+### Gereksinimler 
+- Python 3.x
+- requests 
+- beautifulsoup4 
+- pandas 
+- python-dotenv 
+- tkinter 
 
-Python 3.x
-requests, beautifulsoup4, pandas, python-dotenv, tkinter 
+Gereksinimleri `pip` kullanarak indirmek için `pip install -r requirements.txt`
 
--pip3 install requests beautifulsoup4 pandas python-dotenv komutuyla paketleri yükleyin.
--.env dosyası oluşturup NOT_KUTUSU_EMAIL=user@gmail.com ve NOT_KUTUSU_PASSWORD=user_password değerlerini girin.
--python3 main.py komutuyla çalıştırın.
+### Projenin kullanımı
+- .env dosyası oluşturup `NOT_KUTUSU_EMAIL` `NOT_KUTUSU_PASSWORD` değişkenlerini karşılık gelen değerlerle doldurun. 
+- `python3 main.py` komutuyla çalıştırın.
